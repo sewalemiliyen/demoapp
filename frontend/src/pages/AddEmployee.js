@@ -13,7 +13,7 @@ function AddEmployee() {
       password: password,
     };
     //send the data to the server
-    const apiURL = "http://3.131.133.10:4000/addemployee";
+    const apiURL = "http://3.17.204.185:4000/addemployee";
     const requestOptions = {
       method: "POST",
       headers: { "Content-Type": "application/json" },

@@ -17,7 +17,7 @@ function Login() {
     //check the data in the console
     console.log(loginData);
     //send the employee object to the server
-    const apiURL = "http://3.131.133.10:4000/login";
+    const apiURL = "http://3.17.204.185:4000/login";
     const requestOptions = {
       method: "POST",
       headers: { "Content-Type": "application/json" },
