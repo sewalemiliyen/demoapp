@@ -13,9 +13,9 @@ const cors = require('cors');
 
 //define the coneting parameters to the database
 const dbConfig ={
-    user: 'demoap',
+    user: 'demoapp',
     database: 'demoapp',
-    password:'demoap',
+    password:'demoapp',
     host: 'localhost',
     conectionlimit:10,
 }
