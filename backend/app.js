@@ -13,11 +13,10 @@ const cors = require('cors');
 
 //define the coneting parameters to the database
 const dbConfig ={
-    user: 'demoapp',
+    user: 'demoap',
     database: 'demoapp',
-    password:'demoapp',
+    password:'demoap',
     host: 'localhost',
-    conectionlimit:10,
 }
 //create the connection to the database
 const connection = mysql.createConnection(dbConfig);
